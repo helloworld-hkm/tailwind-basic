@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch",
+    "finish":"npx tailwindcss -o ./public/css/final.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloworld-hkm/tailwind-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloworld-hkm/tailwind-basic/issues"
+  },
+  "homepage": "https://github.com/helloworld-hkm/tailwind-basic#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
